@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  width: 80%;
+  height: 99vh;
+  margin: auto;
+  padding: 11px;
+  /* background-color: aqua; */
+}
+.data-container{
+  height: 68%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+.show-qns{
+  background-color: rgb(250, 246, 246);
+  border-radius:22px;
+  padding: 11px;
+}
+.hide-qns{
+  display: none;
+}
+.ans{
+  padding: 9px;
+}
+
+.input-container{
+  width: 80%;
+  height: 27%;
+  border-radius: 22px;
+  box-shadow: 0px 3px 3px 2px rgb(239, 238, 238);
+  border-top: 1px solid silver;
+  position: fixed;
+  top: 70%;
+}
+
+.input-container input{
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 11px;
+
+}
+
+.input-container button{
+  width: 90px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  font-size: 16px;
+  margin-top: 75px;
+  margin-left: 15px;
+
+}
