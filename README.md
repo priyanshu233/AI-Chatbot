@@ -1,6 +1,8 @@
 
 🤖 
 
+Video Demo Link - https://drive.google.com/drive/folders/17DJFQRoRSbpJnMe3aFqDoF4AmLZv_cfl
+
 AI Chatbot using ReactJS & Gemini API
 An interactive AI-powered chatbot built with ReactJS and Gemini API (by Google). Designed to simulate human-like conversations and deliver meaningful responses — perfect for learning, experimentation, or integration into modern web apps.
 
@@ -69,7 +71,9 @@ Edit
 src/
 │
 ├── components/      # Chat components
-├── api/             # Gemini API integration
+├── api/  
+
+           # Gemini API integration
 ├── App.js           # Main app logic
 └── index.js         # App entry point
 🙌 Acknowledgements
